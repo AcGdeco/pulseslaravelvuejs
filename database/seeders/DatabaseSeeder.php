@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
         Produto::create(['nome' => 'Melancia','sku' => '007ME','qtd' => '50','metodo' => 'sistema']);
         Produto::create(['nome' => 'Biscoito','sku' => '008BI','qtd' => '200','metodo' => 'sistema']);
         Produto::create(['nome' => 'Manga','sku' => '009MA','qtd' => '200','metodo' => 'sistema']);
-        Login::create(['login' => 'adm','password' => 'admin']);
+        Login::create(['login' => 'admin','password' => 'admin']);
         Baixa::create(['idproduto' => '1','qtd' => '-100','metodo' => 'sistema']);
         Baixa::create(['idproduto' => '3','qtd' => '10','metodo' => 'sistema']);
         Baixa::create(['idproduto' => '4','qtd' => '50','metodo' => 'sistema']);
