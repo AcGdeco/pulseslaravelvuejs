@@ -26,6 +26,7 @@ Vue.component('loginbd-componente', require('./components/LoginBD.vue').default)
 Vue.component('novo-produto', require('./components/NovoProduto.vue').default);
 Vue.component('lista-produtos', require('./components/ListaProdutos.vue').default);
 Vue.component('editar-produto', require('./components/EditarProduto.vue').default);
+Vue.component('dar-baixa', require('./components/DarBaixa.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

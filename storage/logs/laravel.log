@@ -21173,3 +21173,20 @@ Did you mean one of these?
 #37 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\server.php(21): require_once('C:\\\\xampp\\\\htdocs...')
 #38 {main}
 "} 
+[2021-07-26 22:39:16] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\vendor\\symfony\\console\\Application.php:682)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\vendor\\symfony\\console\\Application.php(255): Symfony\\Component\\Console\\Application->find('server')
+#1 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\vendor\\symfony\\console\\Application.php(167): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\xampp\\htdocs\\dashboard\\LaravelVueJS\\laravelvue\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
